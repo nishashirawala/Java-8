@@ -7,5 +7,8 @@ public class LambdaExample1 {
 	public static void main(String[] args) {
 		List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
 		integers.forEach(x -> System.out.println(x));	
+		
+		List<String> strings = Arrays.asList("a", "b", "c");
+		strings.forEach(s -> System.out.println(s));
 	}
 }
