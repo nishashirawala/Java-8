@@ -2,7 +2,7 @@ package interfaces;
 /*
  *  Simple implementation of interface with default method and executing that method
  */
-public class InterfaceExample1 implements A {
+public class InterfaceExample1 implements A1 {
 
 	@Override
 	public void sayHi() {
@@ -18,7 +18,7 @@ public class InterfaceExample1 implements A {
 	}
 }
 
-interface A {
+interface A1 {
 	default void sayHello() {
 		System.out.println("Say Hello From Interface A");
 	}
